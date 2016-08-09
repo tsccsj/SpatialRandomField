@@ -153,12 +153,10 @@ void normalToUniform(double * normal, float * uniform, int nCells)
 		uniform[i] = 0.5 * (1 + erf(normal[i] / sqrt2));
 		if(uniform[i] < 0)
 		{
-//			printf("%f\n", uniform[i]);
 			uniform[i] = 0.0;
 		}
 		if(uniform[i] > 1.0)
 		{
-//			printf("%f\n", uniform[i]);
 			uniform[i] = 1.0;
 		}
 	}

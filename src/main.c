@@ -9,7 +9,7 @@ int main(int argc, char ** argv)
 {
 	if(argc < 6)
 	{
-		printf("Incorrect number of input arguments: \n\tRandomField [OutputFieldName] [ReferenceFileName] [Distance] [Exponent] [flat] [seed(optional)]\n");
+		printf("Incorrect number of input arguments: \n\tRandomField <OutputFieldName> <ReferenceFileName> <Distance> <Exponent> <flat> <seed(optional)>\n");
 		return 1;
 	}
 
