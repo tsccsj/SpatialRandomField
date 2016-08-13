@@ -1,7 +1,7 @@
 # SpatialRandomField
 SpatialRandomField is a software that generates uniform-distributed spatial random fields using a moving average approach. It is both a stand-alone tool, and an integrated part of QuantumPopulationGeo-Analytics.
 
-Software instruction at
+# Software instruction at
 http://digitalpopulations.pbworks.com/w/page/110082820/SpatialRandomFieldGenerator
 
 What does it do?
@@ -12,10 +12,11 @@ What does it do?
  3. Covert the normal-distributed spatial random field to a uniform-distributed random field
  4. Output the random field as a GeoTIFF
 
-Prerequisites
+# Prerequisites
  GDAL
 
-To run, find the compiled executable (i.e. DigPopPopulationDensity) and run it with the following arguments:
+# To run
+Find the compiled executable (i.e. DigPopPopulationDensity) and run it with the following arguments:
 ./RandomField <OutputFieldName> <ReferenceFileName> <Distance> <Exponent> <flat> <seed(optional)>
 Input arguments:
  1. OutputFieldName: the output GeoTiff
