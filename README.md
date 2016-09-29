@@ -16,8 +16,9 @@ What does it do?
  GDAL
 
 # To run
-Find the compiled executable (i.e. DigPopPopulationDensity) and run it with the following arguments:
-  RandomField OutputFieldName ReferenceFileName Distance Exponent flat seed(optional)
+Find the compiled executable (i.e. DigPopPopulationDensity) and run it with the following arguments: 
+RandomField OutputFieldName ReferenceFileName Distance Exponent flat seed(optional)
+
 Input arguments:
  1. OutputFieldName: the output GeoTiff
  2. ReferenceFileName: the input GeoTiff from which the software gets spatial bounds, cell size and spatial reference system
