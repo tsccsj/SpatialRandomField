@@ -1,3 +1,8 @@
+/**
+ * main.c
+ * Author: Yizhao Gao
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
